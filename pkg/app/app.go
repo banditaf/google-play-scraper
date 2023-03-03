@@ -114,7 +114,7 @@ func (app *App) LoadDetails() error {
 	
 	n := rand.Int() % len(endpoints) 
 
-	req, err := http.NewRequest("GET", "https://" + endpoints[n] + "/fireprox?id=" + val, nil)
+	req, err := http.NewRequest("GET", "https://" + endpoints[n] + "/fireprox?id=" + app.ID, nil)
 	if err != nil {
 		return err
 	}
