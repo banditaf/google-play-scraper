@@ -8,7 +8,7 @@ import (
 	"os"
 	"bufio"
         "log"
-        "rand"
+        "math/rand"
 	"github.com/banditaf/google-play-scraper/internal/parse"
 	"github.com/banditaf/google-play-scraper/internal/util"
 	"github.com/banditaf/google-play-scraper/pkg/reviews"
